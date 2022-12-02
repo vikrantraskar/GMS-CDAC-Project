@@ -1,0 +1,43 @@
+.landing-container {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+.background-image-wrapper{
+    width: 100%;
+    height: 100%;
+    background-image: url(../../../assets/images/landing_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-wrapper{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.text-wrapper{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+}
+.right-wrapper{
+    flex: 1;
+}
+.join-btn-wrapper{
+    padding-top: 10px;
+}
+
+.join-btn-wrapper button {
+    font-size: 14px;
+    padding: 5px 15px;
+    color: #FFF;
+    background-color: #674fa3;
+
+}

@@ -1,0 +1,84 @@
+/* .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    height: 60px;
+    width: 100vw;
+    background-color: cornflowerblue;
+}
+
+.wrapper .brand{
+    font-size: 36;
+    font-weight: 700;
+}
+
+.wrapper .menu-container{
+    flex: 1;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.wrapper .menu-container .menu-list {
+    flex: 1;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+
+}
+.wrapper .menu-container .menu-list .menu-item {
+    padding-left: 15px;
+}
+
+.wrapper .menu-container .action-wrapper {
+    height: 40px;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+} */
+
+.navbar{
+    background-color: #674fa3;
+}
+
+.navbar-brand{
+    /* color: goldenrod; */
+    color: black;
+    font-weight: bold;
+}
+
+.nav-link{
+    color: whitesmoke !important;
+}
+
+.nav-item{
+    color: whitesmoke;
+}
+
+.signin-btn {
+    background: transparent !important;
+    border: 2px solid #FFF !important;
+    padding: 0px 15px !important;
+}
+
+.signout-btn {
+    background: transparent !important;
+    border: 2px solid #dc3545 !important;
+    color: #dc3545 !important
+}
+
+.me-2 {
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.logo-circle{
+    border-radius: 50%;
+    background-color: #FFF;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+}

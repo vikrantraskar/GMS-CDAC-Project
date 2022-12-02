@@ -1,0 +1,13 @@
+.protected-screen-view{
+    margin-left: 250px;
+    height: calc(100vh - 56px);
+    width: calc(100vw - 250px);
+    background-color: #f7f2f9;
+}
+
+.default-screen-view{
+    margin-left: 0px;
+    height: calc(100vh - 56px);
+    width:100vw;
+    background-color: #f7f2f9;
+}

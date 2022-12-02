@@ -1,0 +1,62 @@
+.main-div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-div{
+    width: 450px;
+    height: auto;
+    background-color:white;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    text-align: start;
+    /* border: goldenrod 10px outset; */
+}
+.heading{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.h3{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* input{
+    padding: 5px;
+    border: goldenrod 5px solid;
+
+} */
+
+.signin-wrapper .btn-div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.signin-wrapper .btn-div button {
+    width: 100%;
+    background-color: #674fa3 !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.signin-wrapper button:hover {
+    background-color: #674fa3 !important;
+    box-shadow: none !important;
+}
+
+hr{
+    border: goldenrod 2px solid;
+    background-color: goldenrod;
+}
+.error-wrapper{
+    color: #dc3545;
+    font-size: 12px;
+    
+}
